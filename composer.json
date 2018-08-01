@@ -1,0 +1,26 @@
+{
+    "name": "strikersfran/core-module",
+    "description": "Modulo Core para FFZERO1",
+    "type":"laravel-module",
+    "authors": [
+        {
+            "name": "Francisco Carrión",
+            "email": "carrionfn@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Core\\Providers\\CoreServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Core\\": ""
+        }
+    }
+}
