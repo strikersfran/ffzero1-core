@@ -2,12 +2,18 @@
     "name": "strikersfran/core-module",
     "description": "Modulo Core para FFZERO1",
     "type":"laravel-module",
+    "license": "MIT",
     "authors": [
         {
             "name": "Francisco Carrión",
             "email": "carrionfn@gmail.com"
         }
     ],
+    "require" : {
+        "php" : "^7.1.3",
+        "joshbrw/laravel-module-installer" : "^0.1.4",
+        "nwidart/laravel-modules" : "^3.3"
+    },
     "extra": {
         "laravel": {
             "providers": [
