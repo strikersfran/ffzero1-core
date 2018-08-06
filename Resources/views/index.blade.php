@@ -5,5 +5,6 @@
 
     <p>
         Esta es una vista del module: {!! config('core.name') !!}
+        Modificado por freddy
     </p>
 @stop
